@@ -1,3 +1,18 @@
-name: Vijay Krishnavanshi
+# Site settings
+title: Vijay Krishnavanshi
+email: vijaykrishnavanshi@gmail.com 
+description: > # this means to ignore newlines until "baseurl:"
+  Data Science, Machine Learning.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://vijaykrishnavanshi.github.io" # the base hostname & protocol for your site
+#twitter_username: vkrishnavanshi
+github_username: vijaykrishnavanshi
+
+# Build settings
 markdown: kramdown
-permalink: /blog/:title
+permalink: "/:title"
+
+# MathJax
+math_engine: mathjax
+math_engine_opts:
+preview: true
